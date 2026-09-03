@@ -70,3 +70,7 @@ streamlit_config_local.toml
 
 # IDE Local
 .python-version
+
+.streamlit/secrets.toml
+git_show_output.txt
+.claude/
