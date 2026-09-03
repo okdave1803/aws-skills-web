@@ -74,3 +74,8 @@ streamlit_config_local.toml
 .streamlit/secrets.toml
 git_show_output.txt
 .claude/
+
+.env
+.env.*
+.streamlit/secrets.toml
+*.db
