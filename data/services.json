@@ -1,0 +1,112 @@
+{
+  "Compute": [
+    {
+      "name": "EC2",
+      "description": "スケーラブルなクラウドコンピューティング能力",
+      "cp_points": "仮想マシン、インスタンスタイプ、リージョン選択、EBS ボリューム",
+      "icon": "⚙️"
+    },
+    {
+      "name": "Lambda",
+      "description": "サーバーレスコンピューティング",
+      "cp_points": "イベント駆動型実行、実行時間に応じた従量課金",
+      "icon": "⚡"
+    },
+    {
+      "name": "Elastic Beanstalk",
+      "description": "Webアプリケーションのデプロイと管理",
+      "cp_points": "簡単なデプロイ、自動スケーリング、負荷分散",
+      "icon": "📦"
+    }
+  ],
+  "Storage": [
+    {
+      "name": "S3",
+      "description": "オブジェクトストレージサービス",
+      "cp_points": "バケット、オブジェクト、スケーラビリティ、高い耐久性",
+      "icon": "💾"
+    },
+    {
+      "name": "EBS",
+      "description": "ブロックストレージボリューム",
+      "cp_points": "EC2への接続、スナップショット、暗号化",
+      "icon": "💿"
+    },
+    {
+      "name": "Glacier",
+      "description": "低コストのアーカイブストレージ",
+      "cp_points": "長期保存、低コスト、取得時間が長い",
+      "icon": "❄️"
+    }
+  ],
+  "Database": [
+    {
+      "name": "RDS",
+      "description": "マネージド型リレーショナルデータベース",
+      "cp_points": "自動バックアップ、パッチ管理、マルチAZ配置",
+      "icon": "🗄️"
+    },
+    {
+      "name": "DynamoDB",
+      "description": "NoSQL データベース",
+      "cp_points": "キーバリューストア、スケーラビリティ、低レイテンシー",
+      "icon": "📊"
+    }
+  ],
+  "Networking": [
+    {
+      "name": "VPC",
+      "description": "仮想プライベートクラウド",
+      "cp_points": "サブネット、セキュリティグループ、ルートテーブル",
+      "icon": "🌐"
+    },
+    {
+      "name": "CloudFront",
+      "description": "グローバルコンテンツデリバリーネットワーク",
+      "cp_points": "エッジロケーション、キャッシング、低レイテンシー",
+      "icon": "🚀"
+    }
+  ],
+  "Security": [
+    {
+      "name": "IAM",
+      "description": "アイデンティティとアクセス管理",
+      "cp_points": "ユーザー、ロール、ポリシー、最小権限の原則",
+      "icon": "🔐"
+    },
+    {
+      "name": "KMS",
+      "description": "キー管理サービス",
+      "cp_points": "暗号化キー管理、CMK、データキー",
+      "icon": "🔑"
+    }
+  ],
+  "Monitoring": [
+    {
+      "name": "CloudWatch",
+      "description": "モニタリングと管理サービス",
+      "cp_points": "メトリクス、ログ、アラーム、ダッシュボード",
+      "icon": "📈"
+    },
+    {
+      "name": "CloudTrail",
+      "description": "API監査とロギング",
+      "cp_points": "APIコール記録、コンプライアンス、セキュリティ分析",
+      "icon": "📝"
+    }
+  ],
+  "Cost Management": [
+    {
+      "name": "Pricing",
+      "description": "AWS料金体系",
+      "cp_points": "従量課金、リザーブドインスタンス、Spot",
+      "icon": "💰"
+    },
+    {
+      "name": "Cost Explorer",
+      "description": "コスト分析ツール",
+      "cp_points": "支出の可視化、トレンド分析、コスト最適化",
+      "icon": "💸"
+    }
+  ]
+}
